@@ -2753,7 +2753,8 @@ var Wfs = function () {
   }, {
     key: 'receiveSocketMessage',
     value: function receiveSocketMessage(e) {
-
+      this.trigger(_events2.default.H264_DATA_PARSING, { data: e });
+/*      
       this.buf = new Uint8Array(e.target.result);
       var copy = new Uint8Array(this.buf);
 
@@ -2762,6 +2763,7 @@ var Wfs = function () {
       } else {
         console.log('type error');
       }
+*/
     }
   }]);
 
