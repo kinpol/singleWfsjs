@@ -1,3 +1,5 @@
+## please use single file of wfs.js, DO NOT compile current git branch. bugs find.
+
 ================ 
 wfs.js - html5 player for raw h.264 streams. 
 ================
